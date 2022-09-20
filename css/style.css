@@ -1,0 +1,33 @@
+* {
+    background-color: #FFC4C4;
+    font-family: 'Special Elite', cursive;
+}
+
+
+.container {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    }
+
+
+.menu {
+    padding: 0;
+}
+
+ul,li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    
+}
