@@ -1,20 +1,31 @@
 * {
     background-color: #FFC4C4;
     font-family: 'Special Elite', cursive;
+    color: red;  
 }
 
 
 .container {
     position: relative;
-    max-width: 700px;
+    max-width: 400px;
     margin: 0 auto;
-    text-align: left;
+    padding: 0;
+    /* text-align: left; */
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    font-size: large;
+    font-weight: 400;
 }
 
 .wrapper {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 25%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
@@ -23,11 +34,23 @@
 
 .menu {
     padding: 0;
-}
+    }
 
 ul,li {
     list-style: none;
     position: relative;
-    margin: 10px 0;
-    
+    margin: 10px 0;  
+    top: 20px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+.image {
+    position: absolute;
+    margin-left: 50%;
+    bottom: -30%;
+    left: 100%;
 }
