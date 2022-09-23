@@ -1,16 +1,18 @@
 * {
-    background-color: #FFC4C4;
+    box-sizing: border-box;
+    background-color: #182747;
     font-family: 'Special Elite', cursive;
-    color: red;  
+    color: #FA7070;  
 }
 
 
 .container {
     position: relative;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0;
-    /* text-align: left; */
+    bottom: 50px;
+    text-align: left;
 }
 
 h1 {
@@ -24,8 +26,9 @@ p {
 
 .wrapper {
     position: absolute;
-    top: 70%;
-    left: 25%;
+    top: 60%;
+    left: 40%;
+   
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
@@ -45,12 +48,23 @@ ul,li {
 
 div ul li a {
     text-decoration: none;
-    color: red;
+    color: #FA7070;
 }
 
-.image {
+.header_img {
     position: absolute;
     margin-left: 50%;
-    bottom: -30%;
+    bottom: -50%;
     left: 100%;
+    max-width: 100%;
+    width: 500px;
 }
+
+img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: #73A9AD;
+}
+
