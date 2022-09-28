@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
-    background-color: #182747;
+    background-color: #472D2D;
     font-family: 'Special Elite', cursive;
-    color: #FA7070;  
+    color: #F5E8C7;  
 }
 
 
@@ -48,7 +48,7 @@ ul,li {
 
 div ul li a {
     text-decoration: none;
-    color: #FA7070;
+    color: #F5E8C7;
 }
 
 .header_img {
@@ -61,10 +61,20 @@ div ul li a {
 }
 
 img {
-    height: 500px;
-    width: 500px;
+    /* height: 50%;
+    width: 50%; */
     object-fit: contain;
     border-radius: 50%;
     background-color: #73A9AD;
 }
 
+@media (max-width : 768px) {
+    img {
+        /* margin-top: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #73A9AD; */
+        opacity: 20%;
+    }
+}
