@@ -66,8 +66,8 @@ div ul li a {
 }
 
 img {
-    /* height: 50%;
-    width: 50%; */
+    height: 500px;
+    width: 500px;
     object-fit: contain;
     border-radius: 50%;
     background-color: #73A9AD;
